@@ -1,0 +1,49 @@
+:root {
+  --black: #263238;
+  --primary: #4caf4f;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header img {
+  width: 154px;
+}
+
+header nav {
+  display: flex;
+  gap: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+#header-right {
+  display: flex;
+  gap: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+}
