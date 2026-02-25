@@ -1,6 +1,7 @@
 :root {
   --black: #263238;
   --primary: #4caf4f;
+  --silver: #f5f7fa;
 }
 
 body {
@@ -9,11 +10,15 @@ body {
 }
 
 header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--silver);
+}
+
+header.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
   max-width: 1200px;
   margin: auto;
 }
@@ -46,4 +51,8 @@ header nav a {
   background-color: var(--primary);
   color: white;
   text-decoration: none;
+}
+.button.ghost {
+  background-color: transparent;
+  color: var(--primary);
 }
